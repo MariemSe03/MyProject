@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MMS Travel</title>
+    <link rel="stylesheet" href="destination.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <img src="./images/logo.png" alt="" id="logo" />
+
+      <ul id="nav-links-list">
+        <li><a href="home.html" class="nav-link">home</a></li>
+        <div class="dropdown">
+          <button onmouseover="toggleDropdown()" class="dropbtn">
+            Destinations
+          </button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="paris.html">Paris</a>
+            <a href="moscow.html">moscow</a>
+            <a href="moscow.html">Moscow</a>
+          </div>
+        </div>
+        <li><a href="contact.html" class="nav-link">contact</a></li>
+      </ul>
+      <button id="signup">
+        <a href="signup.html"
+          >Sign Up
+          <span class="material-symbols-outlined"> account_circle </span></a
+        >
+      </button>
+    </nav>
+    <header id="banner">
+      <video autoplay muted loop id="video-bg">
+        <source src="images/moscow/banner.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="card">
+        <h1 class="title">Group Travel to Moscow</h1>
+        <p class="price">
+          $150 &nbsp;&nbsp;<span class="old-price">$300</span>
+        </p>
+        <p class="description">
+          Immerse yourself in the vibrant energy of Moscow with our exclusive
+          group travel package. Experience the iconic landmarks, diverse
+          culture, and unparalleled excitement that the city has to offer. Our
+          carefully curated itinerary ensures a memorable journey filled with
+          unforgettable moments.
+        </p>
+        <button class="orange-button">Find More</button>
+      </div>
+    </header>
+    <section id="highlights-section">
+      <div class="highlight-description">
+        <h1 class="highlight-title">Moscow Trip Highlights</h1>
+        <p class="description">
+          Join us on an extraordinary journey through the heart of Moscow City.
+          From the dazzling lights of Red Square to the serene beauty of Gorky
+          Park, our travel package promises an immersive experience like no
+          other. Indulge in the diverse cultural offerings, exciting activities,
+          and breathtaking views that make Moscow a truly iconic destination.
+        </p>
+      </div>
+      <img
+        class="highlight-image"
+        src="images/moscow/highlight (1).jpg"
+        alt=""
+      />
+      <img
+        class="highlight-image"
+        src="images/moscow/highlight (2).jpg"
+        alt=""
+      />
+      <img
+        class="highlight-image"
+        src="images/moscow/highlight (3).jpg"
+        alt=""
+      />
+      <img
+        class="highlight-image"
+        src="images/moscow/highlight (4).jpg"
+        alt=""
+      />
+      <div class="highlight-CTA">
+        <h1 class="title">All details</h1>
+        <button class="orange-button">Explore Now</button>
+      </div>
+    </section>
+    <section id="offers">
+      <div id="offers-title-container">
+        <h3 class="subtitle">Check Out</h3>
+        <h2 class="big-title">Our Special Offers</h2>
+      </div>
+      <div id="cards-container">
+        <div class="offer-card">
+          <img src="images/moscow/offer (2).jpg" alt="" class="card-image" />
+          <div class="rating">
+            <img
+              width="48"
+              height="48"
+              src="https://img.icons8.com/fluency/48/star--v1.png"
+              alt="star--v1"
+            /><img
+              width="48"
+              height="48"
+              src="https://img.icons8.com/fluency/48/star--v1.png"
+              alt="star--v1"
+            /><img
+              width="48"
+              height="48"
+              src="https://img.icons8.com/fluency/48/star--v1.png"
+              alt="star--v1"
+            /><img
+              width="48"
+              height="48"
+              src="https://img.icons8.com/fluency/48/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="48"
+              height="48"
+              src="https://img.icons8.com/fluency-systems-regular/48/star--v1.png"
+              alt="star--v1"
+            />
+          </div>
+          <h1 class="offer-title">Solo Trip</h1>
+          <p class="offer-price">
+            $180 <span class="price-indication">/per Person</span>
+          </p>
+          <div class="offer-details">
+            <div class="time">
+              <img
+                width="24"
+                height="24"
+                src="https://img.icons8.com/material-outlined/24/838383/clock--v1.png"
+                alt="clock--v1"
+              />
+              <p>5 days</p>
+            </div>
+            <div class="location">
+              <img
+                width="24"
+                height="24"
+                src="https://img.icons8.com/material-outlined/24/838383/map--v1.png"
+                alt="map--v1"
+              />
+              <p>New York City, USA</p>
+            </div>
+          </div>
+          <p class="offer-description">
+            Embark on a solo adventure to New York City! This package offers a
+            perfect blend of exploration and relaxation. Immerse yourself in the
+            city that never sleeps and create lasting memories. Book now for an
+            unforgettable experience!
+          </p>
+          <button class="offer-button">Book Now</button>
+        </div>
+
+        <div class="offer-card">
+          <img src="images/moscow/offer (1).jpg" alt="" class="card-image" />
+          <div class="rating">
+            <img
+              width="48"
+              height="48"
+              src="https://img.icons8.com/fluency/48/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="48"
+              height="48"
+              src="https://img.icons8.com/fluency/48/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="48"
+              height="48"
+              src="https://img.icons8.com/fluency/48/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="48"
+              height="48"
+              src="https://img.icons8.com/fluency-systems-regular/48/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="48"
+              height="48"
+              src="https://img.icons8.com/fluency-systems-regular/48/star--v1.png"
+              alt="star--v1"
+            />
+          </div>
+          <h1 class="offer-title">Couples Retreat</h1>
+          <p class="offer-price">
+            $250 <span class="price-indication">/per Person</span>
+          </p>
+          <div class="offer-details">
+            <div class="time">
+              <img
+                width="24"
+                height="24"
+                src="https://img.icons8.com/material-outlined/24/838383/clock--v1.png"
+                alt="clock--v1"
+              />
+              <p>7 days</p>
+            </div>
+            <div class "location">
+            <img
+              width="24"
+              height="24"
+              src="https://img.icons8.com/material-outlined/24/838383/map--v1.png"
+              alt="map--v1"
+            />
+            <p>New York City, USA</p>
+          </div>
+        </div>
+        <p class="offer-description">
+          Indulge in a romantic getaway to the city that never sleeps! Our
+          Couples Retreat package offers a perfect blend of luxury and
+          adventure. Explore iconic landmarks, savor exquisite cuisine, and
+          create timeless memories with your loved one. Book now for a magical
+          experience!
+        </p>
+        <button class="offer-button">Book Now</button>
+      </div>
+
+      <div class="offer-card">
+        <img src="images/moscow/offer (3).jpg" alt="" class="card-image" />
+        <div class="rating">
+          <img
+            width="48"
+            height="48"
+            src="https://img.icons8.com/fluency/48/star--v1.png"
+            alt="star--v1"
+          />
+          <img
+            width="48"
+            height="48"
+            src="https://img.icons8.com/fluency/48/star--v1.png"
+            alt="star--v1"
+          />
+          <img
+            width="48"
+            height="48"
+            src="https://img.icons8.com/fluency/48/star--v1.png"
+            alt="star--v1"
+          />
+          <img
+            width="48"
+            height="48"
+            src="https://img.icons8.com/fluency/48/star--v1.png"
+            alt="star--v1"
+          />
+          <img
+            width="48"
+            height="48"
+            src="https://img.icons8.com/fluency/48/star--v1.png"
+            alt="star--v1"
+          />
+        </div>
+        <h1 class="offer-title">Family Adventure</h1>
+        <p class="offer-price">
+          $300 <span class="price-indication">/per Person</span>
+        </p>
+        <div class="offer-details">
+          <div class="time">
+            <img
+              width="24"
+              height="24"
+              src="https://img.icons8.com/material-outlined/24/838383/clock--v1.png"
+              alt="clock--v1"
+            />
+            <p>10 days</p>
+          </div>
+          <div class="location">
+            <img
+              width="24"
+              height="24"
+              src="https://img.icons8.com/material-outlined/24/838383/map--v1.png"
+              alt="map--v1"
+            />
+            <p>New York City, USA</p>
+          </div>
+        </div>
+        <p class="offer-description">
+          Embark on a family adventure in the heart of New York City! Our Family
+          Adventure package offers a blend of fun and exploration suitable for
+          all ages. From iconic attractions to family-friendly activities,
+          create lasting memories with your loved ones. Book now for an
+          unforgettable experience!
+        </p>
+        <button class="offer-button">Book Now</button>
+      </div>
+    </section>
+
+    <section id="comparison-table">
+      <div id="offers-title-container">
+        <h3 class="subtitle">check out</h3>
+        <h2 class="big-title">Our Offers' Details</h2>
+      </div>
+      <table class="offer-table">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Solo Trip</th>
+            <th>Family Adventure</th>
+            <th>Couples Retreat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Hotel</td>
+            <td>Cozy Solo Hotel</td>
+            <td>Group Adventure Hotel</td>
+            <td>Romantic Couple Retreat</td>
+          </tr>
+          <tr>
+            <td>Transportation</td>
+            <td>Private Solo Car</td>
+            <td>Group Shuttle Service</td>
+            <td>Romantic Couple Limousine</td>
+          </tr>
+          <tr>
+            <td>Restaurants</td>
+            <td>Solo Dining Experience</td>
+            <td>Group Foodie Tour</td>
+            <td>Intimate Couple Dinner</td>
+          </tr>
+          <tr>
+            <td>Duration</td>
+            <td>5 days</td>
+            <td>10 days</td>
+            <td>7 days</td>
+          </tr>
+          <tr>
+            <td>Activities</td>
+            <td>Solo Sightseeing Tour</td>
+            <td>Group Adventure Activities</td>
+            <td>Romantic Couple Spa Day</td>
+          </tr>
+          <tr>
+            <td>Guides</td>
+            <td>Personal Solo Guide</td>
+            <td>Group Tour Guides</td>
+            <td>Private Couple Guide</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <footer>
+      <div id="about">
+        <img src="images/logo-white.png" alt="" id="logo" />
+        <p class="description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+          quia fugiat, nam quas aliquid, cumque quis animi optio vel
+          exercitationem ipsam. Nam minima magnam ex eaque praesentium aliquid
+          maxime magni.
+        </p>
+        <div id="social-media-logos">
+          <a href="#facebook">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="48"
+              height="48"
+              viewBox="0,0,256,256"
+              style="fill: #000000"
+            >
+              <g
+                fill="#ffffff"
+                fill-rule="nonzero"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray=""
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+                style="mix-blend-mode: normal"
+              >
+                <g transform="scale(10.66667,10.66667)">
+                  <path
+                    d="M11.666,2.005c-5.046,0.165 -9.292,4.246 -9.641,9.283c-0.369,5.329 3.442,9.832 8.481,10.589v-7.227h-1.614c-0.726,0 -1.314,-0.588 -1.314,-1.314v0c0,-0.726 0.588,-1.314 1.314,-1.314h1.613v-1.749c0,-2.896 1.411,-4.167 3.818,-4.167c0.357,0 0.662,0.008 0.921,0.021c0.636,0.031 1.129,0.561 1.129,1.198v0c0,0.663 -0.537,1.2 -1.2,1.2h-0.442c-1.022,0 -1.379,0.969 -1.379,2.061v1.437h1.87c0.591,0 1.043,0.527 0.953,1.111l-0.108,0.701c-0.073,0.47 -0.477,0.817 -0.953,0.817h-1.762v7.247c4.883,-0.663 8.648,-4.837 8.648,-9.899c0,-5.634 -4.659,-10.179 -10.334,-9.995z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <a href="#instagram">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="48"
+              height="48"
+              viewBox="0,0,256,256"
+              style="fill: #000000"
+            >
+              <g
+                fill="#ffffff"
+                fill-rule="nonzero"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray=""
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+                style="mix-blend-mode: normal"
+              >
+                <g transform="scale(10.66667,10.66667)">
+                  <path
+                    d="M8,3c-2.761,0 -5,2.239 -5,5v8c0,2.761 2.239,5 5,5h8c2.761,0 5,-2.239 5,-5v-8c0,-2.761 -2.239,-5 -5,-5zM18,5c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1zM12,7c2.761,0 5,2.239 5,5c0,2.761 -2.239,5 -5,5c-2.761,0 -5,-2.239 -5,-5c0,-2.761 2.239,-5 5,-5zM12,9c-1.65685,0 -3,1.34315 -3,3c0,1.65685 1.34315,3 3,3c1.65685,0 3,-1.34315 3,-3c0,-1.65685 -1.34315,-3 -3,-3z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <a href="#youtube">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="48"
+              height="48"
+              viewBox="0,0,256,256"
+              style="fill: #000000"
+            >
+              <g
+                fill="#ffffff"
+                fill-rule="nonzero"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray=""
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+                style="mix-blend-mode: normal"
+              >
+                <g transform="scale(10.66667,10.66667)">
+                  <path
+                    d="M21.582,6.186c-0.23,-0.86 -0.908,-1.538 -1.768,-1.768c-1.56,-0.418 -7.814,-0.418 -7.814,-0.418c0,0 -6.254,0 -7.814,0.418c-0.86,0.23 -1.538,0.908 -1.768,1.768c-0.418,1.56 -0.418,5.814 -0.418,5.814c0,0 0,4.254 0.418,5.814c0.23,0.86 0.908,1.538 1.768,1.768c1.56,0.418 7.814,0.418 7.814,0.418c0,0 6.254,0 7.814,-0.418c0.861,-0.23 1.538,-0.908 1.768,-1.768c0.418,-1.56 0.418,-5.814 0.418,-5.814c0,0 0,-4.254 -0.418,-5.814zM10,14.598v-5.196c0,-0.385 0.417,-0.625 0.75,-0.433l4.5,2.598c0.333,0.192 0.333,0.674 0,0.866l-4.5,2.598c-0.333,0.193 -0.75,-0.048 -0.75,-0.433z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div id="services">
+        <h2>Services</h2>
+        <ul id="services-links-list">
+          <li><a href="home.html" class="service-link">home</a></li>
+          <li>
+            <a href="#nav-links-list" class="service-link">destinations</a>
+          </li>
+          <li><a href="contact.html" class="service-link">contact</a></li>
+        </ul>
+      </div>
+      <div id="contacts">
+        <h2>Contacts</h2>
+        <ul id="contact-list">
+          <li class="contact">
+            <span class="material-symbols-outlined"> location_on </span>company,
+            address, route
+          </li>
+          <li class="contact">
+            <span class="material-symbols-outlined"> call </span>+216-58-032-680
+          </li>
+          <li class="contact">
+            <span class="material-symbols-outlined"> mail </span
+            >contact@MMSTravel.tn
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script>
+    document.querySelectorAll("button.orange-button").forEach((button) => {
+      button.addEventListener("click", () => {
+        document
+          .getElementById("offers")
+          .scrollIntoView({ behavior: "smooth" });
+      });
+    });
+
+    function toggleDropdown() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close dropdown on click outside
+    window.onclick = function (event) {
+      if (!event.target.matches(".dropbtn")) {
+        document
+          .querySelectorAll(".dropdown-content.show")
+          .forEach(function (dropdown) {
+            dropdown.classList.remove("show");
+          });
+      }
+    };
+  </script>
+</html>

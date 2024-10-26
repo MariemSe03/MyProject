@@ -1,0 +1,298 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 9%;
+  align-items: center;
+}
+
+#nav-links-list {
+  margin: 0%;
+  display: flex;
+  gap: 7rem;
+  list-style: none;
+}
+#logo {
+  width: 150px;
+}
+.nav-link {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #192c49;
+  font-family: "Roboto", sans-serif;
+}
+.nav-link:hover {
+  color: #ff8c6f;
+}
+#active {
+  color: #ff8c6f;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: inherit;
+  color: #192c49;
+  padding: 0px;
+  font-size: inherit;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  color: #ff8c6f;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #192c49;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ff8c6f;
+  color: #fff;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+#signup {
+  background-color: inherit;
+  color: #192c49;
+  padding: 0.7%;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  transition: background-color 0.3s;
+}
+#signup a {
+  color: inherit;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  text-decoration: none;
+}
+#signup:hover {
+  background-color: #ff8c6f;
+  color: #fff;
+}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 10%;
+  color: white;
+  height: 500px;
+  background-image: url("images/home/home_banner.png");
+}
+.title {
+  margin: 0%;
+  font-size: 60px;
+}
+.description {
+  font-family: "Roboto", sans-serif;
+}
+
+#why-us {
+  background-color: #f5f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #142745;
+  gap: 5%;
+  padding: 10% 14%;
+}
+#cards-container {
+  width: 85%;
+  display: flex;
+  gap: 5%;
+  justify-content: space-around;
+}
+.card-image {
+  width: 100%;
+}
+.travel-card {
+  padding: 1%;
+  box-shadow: 0 0 3px #3e3f47a1;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  color: #142745;
+  font-size: 18px;
+  min-height: max-content;
+  width: 30%;
+  text-align: center;
+}
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  color: #838383;
+}
+#why-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7%;
+}
+img {
+  transition: transform 0.3s;
+}
+img:hover {
+  transform: scale(1.05);
+}
+#about-us {
+  display: flex;
+  margin: 10%;
+  gap: 5%;
+  margin-left: 20%;
+}
+#about-image {
+  padding: 5px;
+  border-radius: 3%;
+  height: min-content;
+  box-shadow: 0px 0px 5px rgb(175, 175, 175);
+}
+#about-image img {
+  width: 100%;
+}
+#about-us .title {
+  font-size: 3rem;
+}
+#about-us .subtitle {
+  font-size: 1rem;
+}
+#features {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+}
+.feature {
+  display: flex;
+}
+#reviews {
+  background-color: #f5f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #142745;
+  padding: 10% 15%;
+}
+.rating {
+  margin-top: 10%;
+  height: 12%;
+}
+.rating img {
+  width: 25px;
+  height: 25px;
+}
+.review-text {
+  font-size: smaller;
+  font-weight: 200;
+  color: #838383;
+  text-align: center;
+  margin: 5% 3%;
+}
+.profile-pic {
+  width: 30%;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 0 8px #cdcdcd;
+  position: relative;
+  top: 10%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #14161c;
+  color: #acafb6;
+  padding: 2%;
+  font-size: smaller;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  font-weight: 300;
+}
+#services {
+  display: flex;
+  flex-direction: column;
+}
+#services-links-list {
+  list-style: none;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.service-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: inherit;
+}
+
+#contact-list {
+  list-style: none;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.contact {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+footer h2 {
+  color: white;
+}
+footer a {
+  text-decoration: none;
+}
+svg {
+  max-width: 35px;
+}
